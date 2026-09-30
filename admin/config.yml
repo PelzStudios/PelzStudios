@@ -11,14 +11,14 @@
 
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME # e.g. oluwasemilore/portfolio
+  repo: PelzStudios/PelzStudios
   branch: main
-  base_url: https://YOUR-GATEWAY.vercel.app # e.g. https://portfolio-oauth.vercel.app
+  base_url: https://pelzstudios-oauth.vercel.app # ← deploy the OAuth gateway and use its Vercel URL here
   # Optional: draft PRs instead of publishing directly
   # publish_mode: editorial_workflow
 
-site_url: https://YOUR-SITE.vercel.app
-display_url: https://YOUR-SITE.vercel.app
+site_url: https://pelzstudios.vercel.app
+display_url: https://pelzstudios.vercel.app
 logo_url: /assets/img/favicon.svg
 
 media_folder: uploads
