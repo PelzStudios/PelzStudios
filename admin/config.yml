@@ -4,20 +4,21 @@
 #
 # ONE-TIME SETUP REQUIRED (see README.md):
 # 1. Replace repo with your GitHub username/repo.
-# 2. Deploy the free OAuth gateway (netlify-cms-oauth-provider)
-#    on Netlify and put its URL in base_url below.
+# 2. Deploy the free OAuth gateway
+#    (vencax/netlify-cms-github-oauth-provider) on Vercel and
+#    put its URL in base_url below.
 # ============================================================
 
 backend:
   name: github
   repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME # e.g. oluwasemilore/portfolio
   branch: main
-  base_url: https://YOUR-OAUTH-APP.netlify.app # e.g. https://my-portfolio-oauth.netlify.app
+  base_url: https://YOUR-GATEWAY.vercel.app # e.g. https://portfolio-oauth.vercel.app
   # Optional: draft PRs instead of publishing directly
   # publish_mode: editorial_workflow
 
-site_url: https://YOUR-GITHUB-USERNAME.github.io
-display_url: https://YOUR-GITHUB-USERNAME.github.io
+site_url: https://YOUR-SITE.vercel.app
+display_url: https://YOUR-SITE.vercel.app
 logo_url: /assets/img/favicon.svg
 
 media_folder: uploads
