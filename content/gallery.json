@@ -1,0 +1,10 @@
+{
+  "gallery": [
+    { "image": "/assets/img/gallery/shot-1.svg", "video": "", "caption": "Lagos Eats — brand identity board", "category": "Design" },
+    { "image": "/assets/img/gallery/shot-2.svg", "video": "", "caption": "Instagram grid — Glow Beauty launch", "category": "Design" },
+    { "image": "/assets/img/gallery/shot-3.svg", "video": "", "caption": "30 Reels in 30 Days — storyboard", "category": "Video" },
+    { "image": "/assets/img/gallery/shot-4.svg", "video": "", "caption": "Behind the scenes — festival shoot day", "category": "Video" },
+    { "image": "/assets/img/gallery/shot-5.svg", "video": "", "caption": "Campaign analytics — 30-day report", "category": "Social" },
+    { "image": "/assets/img/gallery/shot-6.svg", "video": "", "caption": "Monthly content calendar", "category": "Social" }
+  ]
+}

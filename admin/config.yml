@@ -1,0 +1,302 @@
+# ============================================================
+# Decap CMS configuration — Content Dashboard
+# Edit content at /admin/ on the live site.
+#
+# ONE-TIME SETUP REQUIRED (see README.md):
+# 1. Replace repo with your GitHub username/repo.
+# 2. Deploy the free OAuth gateway (netlify-cms-oauth-provider)
+#    on Netlify and put its URL in base_url below.
+# ============================================================
+
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME # e.g. oluwasemilore/portfolio
+  branch: main
+  base_url: https://YOUR-OAUTH-APP.netlify.app # e.g. https://my-portfolio-oauth.netlify.app
+  # Optional: draft PRs instead of publishing directly
+  # publish_mode: editorial_workflow
+
+site_url: https://YOUR-GITHUB-USERNAME.github.io
+display_url: https://YOUR-GITHUB-USERNAME.github.io
+logo_url: /assets/img/favicon.svg
+
+media_folder: uploads
+public_folder: /uploads
+publish_mode: simple
+
+collections:
+  # ----------------------------------------------------------
+  # 1. SITE SETTINGS — one form that controls the whole page
+  # ----------------------------------------------------------
+  - name: settings
+    label: "Site Settings"
+    editor:
+      preview: false
+    files:
+      - name: site
+        label: "Main Settings"
+        file: content/settings.json
+        fields:
+          - label: "Site"
+            name: site
+            widget: object
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Browser Tab Title", name: title, widget: string }
+              - { label: "SEO Description", name: description, widget: text }
+              - { label: "Footer Copyright Note", name: footerNote, widget: string }
+          - label: "Hero"
+            name: hero
+            widget: object
+            fields:
+              - { label: "Small Label Above Name", name: eyebrow, widget: string, default: "Portfolio 2026" }
+              - { label: "Name — Part 1", name: line1, widget: string, hint: "Text before the star" }
+              - { label: "Show Gradient Star", name: sparkle, widget: boolean, default: true }
+              - { label: "Name — Part 2", name: line2, widget: string, hint: "Text after the star" }
+              - { label: "Tagline Line 1", name: tagline1, widget: string }
+              - { label: "Tagline Line 2", name: tagline2, widget: string }
+              - { label: "Hero Art Image", name: art, widget: image, required: false, hint: "Large illustration on the right of the hero" }
+              - { label: "Rotating Phrases", name: typewriter, widget: list, hint: "Phrases typed after \"I build\"", fields: [{ label: "Phrase", name: phrase, widget: string }] }
+          - label: "Identity"
+            name: identity
+            widget: object
+            fields:
+              - { label: "Job Title", name: role, widget: string }
+              - { label: "Location", name: location, widget: string }
+              - { label: "Avatar", name: avatar, widget: image, required: false }
+              - { label: "Resume Link (optional)", name: resumeUrl, widget: string, required: false }
+          - label: "Hero Stats"
+            name: stats
+            widget: list
+            summary: "{{fields.value}} {{fields.label}}"
+            fields:
+              - { label: "Value", name: value, widget: string, hint: "e.g. 4+" }
+              - { label: "Label", name: label, widget: string, hint: "e.g. Years experience" }
+          - label: "About Section"
+            name: about
+            widget: object
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Small Label", name: subheading, widget: string }
+              - { label: "Bio Paragraphs", name: paragraphs, widget: list, fields: [{ label: "Paragraph", name: paragraph, widget: text }] }
+              - { label: "About Image", name: image, widget: image, required: false }
+              - { label: "Highlights", name: highlights, widget: list, hint: "Short bullet points", fields: [{ label: "Highlight", name: highlight, widget: string }] }
+          - label: "Services (What I Do)"
+            name: services
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Icon", name: icon, widget: select, options: ["design", "video", "social", "bulb"], default: "design" }
+              - { label: "Title", name: title, widget: string }
+              - { label: "Description", name: text, widget: text }
+          - label: "Section Headings"
+            name: sectionHeadings
+            widget: object
+            hint: "Titles and subtitles shown above each section"
+            fields:
+              - label: "Projects"
+                name: projects
+                widget: object
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Subtitle", name: subtitle, widget: string }
+              - label: "Experience"
+                name: experience
+                widget: object
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Subtitle", name: subtitle, widget: string }
+              - label: "Skills"
+                name: skills
+                widget: object
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Subtitle", name: subtitle, widget: string }
+              - label: "Testimonials"
+                name: testimonials
+                widget: object
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Subtitle", name: subtitle, widget: string }
+              - label: "Gallery"
+                name: gallery
+                widget: object
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Subtitle", name: subtitle, widget: string }
+              - label: "Blog"
+                name: blog
+                widget: object
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Subtitle", name: subtitle, widget: string }
+              - label: "Contact"
+                name: contact
+                widget: object
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Subtitle", name: subtitle, widget: string }
+          - label: "Call-to-Action Banner"
+            name: cta
+            widget: object
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Subheading", name: subheading, widget: text }
+              - { label: "Button Text", name: buttonText, widget: string }
+              - { label: "Button Link", name: buttonUrl, widget: string, default: "#contact" }
+          - label: "Contact"
+            name: contact
+            widget: object
+            fields:
+              - { label: "Email", name: email, widget: string }
+              - { label: "Phone", name: phone, widget: string }
+              - { label: "Location", name: location, widget: string }
+              - { label: "Availability Note", name: availability, widget: string }
+              - label: "Social Links"
+                name: socials
+                widget: list
+                summary: "{{fields.platform}}"
+                fields:
+                  - { label: "Platform", name: platform, widget: string, hint: "GitHub, LinkedIn, X / Twitter, Instagram…" }
+                  - { label: "URL", name: url, widget: string }
+
+  # ----------------------------------------------------------
+  # 2. PROJECTS
+  # ----------------------------------------------------------
+  - name: projects
+    label: "Projects"
+    editor:
+      preview: false
+    files:
+      - name: projects
+        label: "Projects List"
+        file: content/projects.json
+        fields:
+          - name: projects
+            label: Projects
+            widget: list
+            summary: "{{fields.title}} ({{fields.category}})"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Category", name: category, widget: select, options: ["Design", "Video", "Social", "Other"], default: "Design", hint: "Used for the filter chips" }
+              - { label: "One-line Tagline", name: tagline, widget: string }
+              - { label: "Description", name: description, widget: text }
+              - { label: "Cover Image", name: image, widget: image, required: false }
+              - { label: "Tech Tags", name: tags, widget: list, fields: [{ label: "Tag", name: tag, widget: string }] }
+              - { label: "Live Demo URL", name: demoUrl, widget: string, required: false }
+              - { label: "Code Repo URL", name: repoUrl, widget: string, required: false }
+              - { label: "Featured", name: featured, widget: boolean, default: false, hint: "Featured projects appear first" }
+              - { label: "Year", name: year, widget: string, required: false }
+
+  # ----------------------------------------------------------
+  # 3. EXPERIENCE (timeline)
+  # ----------------------------------------------------------
+  - name: experience
+    label: "Experience"
+    editor:
+      preview: false
+    files:
+      - name: experience
+        label: "Experience Timeline"
+        file: content/experience.json
+        fields:
+          - name: experience
+            label: Entries (newest first)
+            widget: list
+            summary: "{{fields.role}} @ {{fields.company}}"
+            fields:
+              - { label: "Role", name: role, widget: string }
+              - { label: "Company", name: company, widget: string }
+              - { label: "Period", name: period, widget: string, hint: "e.g. 2023 — Present" }
+              - { label: "Current Role", name: current, widget: boolean, default: false }
+              - { label: "Description", name: description, widget: text }
+              - { label: "Tech Tags", name: tags, widget: list, required: false, fields: [{ label: "Tag", name: tag, widget: string }] }
+
+  # ----------------------------------------------------------
+  # 4. SKILLS
+  # ----------------------------------------------------------
+  - name: skills
+    label: "Skills"
+    editor:
+      preview: false
+    files:
+      - name: skills
+        label: "Skills List"
+        file: content/skills.json
+        fields:
+          - name: skills
+            label: Skills
+            widget: list
+            summary: "{{fields.name}} — {{fields.level}}%"
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Category", name: category, widget: string, hint: "e.g. Frontend, Backend, Design" }
+              - { label: "Level (0–100)", name: level, widget: number, min: 0, max: 100, default: 75 }
+              - { label: "Highlight", name: highlight, widget: boolean, default: false }
+
+  # ----------------------------------------------------------
+  # 5. TESTIMONIALS
+  # ----------------------------------------------------------
+  - name: testimonials
+    label: "Testimonials"
+    editor:
+      preview: false
+    files:
+      - name: testimonials
+        label: "Testimonials List"
+        file: content/testimonials.json
+        fields:
+          - name: testimonials
+            label: Testimonials
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Quote", name: quote, widget: text }
+              - { label: "Name", name: name, widget: string }
+              - { label: "Role / Company", name: role, widget: string }
+
+  # ----------------------------------------------------------
+  # 6. GALLERY
+  # ----------------------------------------------------------
+  - name: gallery
+    label: "Gallery"
+    editor:
+      preview: false
+    files:
+      - name: gallery
+        label: "Gallery Items"
+        file: content/gallery.json
+        fields:
+          - name: gallery
+            label: Images
+            widget: list
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Image / Thumbnail", name: image, widget: image }
+              - { label: "Video URL (optional)", name: video, widget: string, required: false, hint: "Paste a YouTube/Vimeo link (plays embedded) or a direct .mp4 link. GitHub can't host files over 100 MB — never upload videos through the media picker." }
+              - { label: "Caption", name: caption, widget: string, required: false }
+              - { label: "Category", name: category, widget: string, required: false, hint: "e.g. Design, Video, Social" }
+
+  # ----------------------------------------------------------
+  # 7. BLOG
+  # ----------------------------------------------------------
+  - name: blog
+    label: "Blog"
+    editor:
+      preview: false
+    files:
+      - name: posts
+        label: "Blog Posts"
+        file: content/blog.json
+        fields:
+          - name: posts
+            label: Posts (newest first)
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Date", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: "Excerpt", name: excerpt, widget: text, hint: "Shown on cards" }
+              - { label: "Cover Image", name: cover, widget: image, required: false }
+              - { label: "Tags", name: tags, widget: list, required: false, fields: [{ label: "Tag", name: tag, widget: string }] }
+              - { label: "Body (Markdown)", name: body, widget: markdown }

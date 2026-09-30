@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Oluwasemilore</title>
+  <meta name="description" content="Writing on building, design and life — by Oluwasemilore." />
+  <meta property="og:title" content="Blog — Oluwasemilore" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og.svg" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+</head>
+
+<body class="page-sub">
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2c.8 3.8 3.9 6.9 7.7 7.7-3.8.8-6.9 3.9-7.7 7.7-.8-3.8-3.9-6.9-7.7-7.7C8.1 8.9 11.2 5.8 12 2Z" fill="currentColor" /></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h14m-6-7l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+  </svg>
+
+  <header class="site-header" id="site-header">
+    <div class="shell header__row">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-star"></use></svg></span>
+        <span class="brand__name">Oluwasemilore Ademo</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul class="main-nav__list">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" data-menu-btn>
+        <svg viewBox="0 0 24 24" class="menu-btn__open"><use href="#i-menu"></use></svg>
+        <svg viewBox="0 0 24 24" class="menu-btn__close"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+    <div class="mobile-menu" data-mobile-menu hidden>
+      <ul class="mobile-menu__list">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#work">Work</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main" class="sub-main">
+    <section class="sub-hero">
+      <div class="shell">
+        <p class="sub-hero__eyebrow">Writing</p>
+        <h1 class="sub-hero__title">Notes on building, design &amp; life</h1>
+        <p class="sub-hero__tagline" id="blog-count">— posts</p>
+      </div>
+    </section>
+    <section class="section" id="posts">
+      <div class="shell" id="blog-grid" data-blog-grid></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer__grid">
+      <div>
+        <a class="brand" href="index.html"><span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-star"></use></svg></span><span class="brand__name">Oluwasemilore Ademo</span></a>
+        <p class="footer__note">Oluwasemilore Ademo. ALL RIGHTS RESERVED</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Quick links</h4>
+        <ul class="footer__links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__heading">Manage</h4>
+        <ul class="footer__links"><li><a href="admin/">Content dashboard</a></li></ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

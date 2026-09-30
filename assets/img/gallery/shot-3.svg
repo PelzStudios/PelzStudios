@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4285f4"/><stop offset="1" stop-color="#fbbc04"/></linearGradient></defs>
+  <rect width="800" height="600" fill="#0b0b0b"/>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#fff">REEL STORYBOARD</text>
+  <g stroke="#242424" stroke-width="2">
+    <rect x="90" y="130" width="190" height="240" rx="14" fill="#151515"/>
+    <rect x="305" y="130" width="190" height="240" rx="14" fill="#151515"/>
+    <rect x="520" y="130" width="190" height="240" rx="14" fill="#151515"/>
+  </g>
+  <circle cx="185" cy="250" r="40" fill="url(#g)" opacity="0.85"/>
+  <path fill="#0b0b0b" d="M173 232 L206 250 L173 268 Z"/>
+  <circle cx="400" cy="250" r="40" fill="url(#g)" opacity="0.55"/>
+  <path fill="#0b0b0b" d="M388 232 L421 250 L388 268 Z"/>
+  <circle cx="615" cy="250" r="40" fill="url(#g)" opacity="0.3"/>
+  <path fill="#0b0b0b" d="M603 232 L636 250 L603 268 Z"/>
+  <rect x="90" y="400" width="620" height="14" rx="7" fill="#242424"/>
+  <rect x="90" y="400" width="300" height="14" rx="7" fill="url(#g)" opacity="0.8"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial" font-size="26" fill="#9aa0a6">SHOT 1 → HOOK · SHOT 2 → VALUE · SHOT 3 → CTA</text>
+</svg>

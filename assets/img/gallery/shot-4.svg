@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ea4335"/><stop offset="1" stop-color="#4285f4"/></linearGradient></defs>
+  <rect width="800" height="600" fill="#101010"/>
+  <circle cx="120" cy="120" r="30" fill="#ea4335"/>
+  <text x="120" y="131" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#fff">REC</text>
+  <rect x="240" y="80" width="320" height="240" rx="16" fill="#181818" stroke="url(#g)" stroke-width="2"/>
+  <circle cx="400" cy="180" r="52" fill="url(#g)" opacity="0.9"/>
+  <circle cx="400" cy="180" r="22" fill="#101010"/>
+  <rect x="270" y="260" width="260" height="10" rx="5" fill="#2c2c2c"/>
+  <rect x="300" y="280" width="200" height="10" rx="5" fill="#2c2c2c"/>
+  <rect x="120" y="380" width="180" height="120" rx="12" fill="#222"/>
+  <rect x="340" y="380" width="180" height="120" rx="12" fill="#222"/>
+  <rect x="560" y="380" width="180" height="120" rx="12" fill="#222"/>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial" font-size="26" fill="#9aa0a6">SHOOT DAY · LAGOS</text>
+</svg>

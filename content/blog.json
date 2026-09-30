@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "How I plan a month of content in one afternoon",
+      "date": "2026-09-25",
+      "excerpt": "My simple system for turning one brainstorm session into 30 days of posts — without burning out.",
+      "cover": "/assets/img/covers/cover-social.svg",
+      "tags": ["Social", "Strategy"],
+      "body": "## Start with one theme\n\nEvery month gets one theme. Everything I post ladders back to it — this keeps the feed focused and me sane.\n\n## Batch everything\n\n- Write all captions in one sitting\n- Design all graphics in one session\n- Film all reels in one shoot day\n- Schedule in one calendar block\n\n## Leave room to trend-jack\n\nI plan 80% and leave 20% open for whatever the algorithm is loving that week.\n\n> Consistency beats perfection. Planning beats motivation.\n"
+    },
+    {
+      "title": "My CapCut workflow: raw footage to finished reel in 2 hours",
+      "date": "2026-08-14",
+      "excerpt": "The exact steps, presets and shortcuts I use to edit reels fast without them looking fast.",
+      "cover": "/assets/img/covers/cover-play.svg",
+      "tags": ["Video", "CapCut"],
+      "body": "## Organise before you edit\n\nRename clips by scene, drop markers on the good takes, and delete everything unusable first. Editing starts with a clean bin.\n\n## Cut to the beat\n\nPick the audio before the visuals. CapCut's beat markers do the heavy lifting — cut on the drop, hold on the hook.\n\n## Polish in one pass\n\nOne pass for pacing, one for captions and zooms, one for color. Three passes max, then export. A reel that's 95% done beats one that never ships.\n"
+    },
+    {
+      "title": "Designing graphics that stop the scroll",
+      "date": "2026-07-02",
+      "excerpt": "What I've learned about contrast, hierarchy and hook-first layouts from designing hundreds of social graphics.",
+      "cover": "/assets/img/covers/cover-blue.svg",
+      "tags": ["Design", "Canva"],
+      "body": "## The first second decides\n\nYou have about one second in the feed. If the message isn't readable without zooming, the design has failed — no matter how pretty it is.\n\n## Contrast is the cheat code\n\nBold type, one accent color, plenty of negative space. When in doubt, remove an element.\n\n## One graphic, one idea\n\nEach graphic carries exactly one message. If you need to say two things, make two graphics.\n\n> Pretty is optional. Clear is mandatory.\n"
+    }
+  ]
+}

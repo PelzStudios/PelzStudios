@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b59d0"/><stop offset="1" stop-color="#4285f4"/></linearGradient></defs>
+  <rect width="900" height="600" fill="#0d0d0d"/>
+  <rect x="310" y="70" width="280" height="430" rx="44" fill="#181818" stroke="url(#g)" stroke-width="2"/>
+  <path fill="url(#g)" d="M450 150 c-16-30-58-30-74 0 c-20 34 34 64 54 40 c8-10 12-26 20-40 Z" opacity="0.95"/>
+  <circle cx="430" cy="165" r="10" fill="#0d0d0d"/>
+  <rect x="360" y="250" width="180" height="14" rx="7" fill="url(#g)" opacity="0.7"/>
+  <rect x="360" y="280" width="130" height="14" rx="7" fill="#2a2a2a"/>
+  <g>
+    <rect x="120" y="180" width="160" height="64" rx="32" fill="url(#g)" opacity="0.85"/>
+    <rect x="120" y="280" width="220" height="64" rx="32" fill="#151515" stroke="url(#g)" stroke-width="2"/>
+    <rect x="620" y="380" width="180" height="64" rx="32" fill="url(#g)" opacity="0.55"/>
+  </g>
+  <text x="700" y="150" font-family="monospace" font-size="56" fill="#fff" opacity="0.9">♥</text>
+</svg>

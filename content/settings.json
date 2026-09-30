@@ -1,0 +1,102 @@
+{
+  "site": {
+    "name": "Oluwasemilore Ademo",
+    "title": "Oluwasemilore Ademo — Digital Media & Content Producer",
+    "description": "Portfolio of Oluwasemilore Ademo — digital media & content producer creating graphics, videos and social content from Lagos.",
+    "ogImage": "/assets/img/og.svg",
+    "footerNote": "Oluwasemilore Ademo. ALL RIGHTS RESERVED",
+    "favicon": "/assets/img/favicon.svg"
+  },
+  "hero": {
+    "eyebrow": "Digital Media & Content Producer",
+    "line1": "Oluwa",
+    "sparkle": true,
+    "line2": "semilore",
+    "tagline1": "Create for Lagos.",
+    "tagline2": "Create for the world.",
+    "art": "/assets/img/hero-art.svg",
+    "typewriter": [
+      "scroll-stopping graphics",
+      "short-form videos",
+      "social campaigns",
+      "brand stories",
+      "content that converts"
+    ]
+  },
+  "identity": {
+    "role": "Digital Media & Content Producer",
+    "location": "Lagos, Nigeria",
+    "avatar": "/assets/img/avatar.svg",
+    "resumeUrl": "",
+    "pronouns": "He/Him"
+  },
+  "stats": [
+    { "value": "150+", "label": "Designs delivered" },
+    { "value": "80+", "label": "Videos edited" },
+    { "value": "10+", "label": "Brands managed" },
+    { "value": "2M+", "label": "Views generated" }
+  ],
+  "about": {
+    "heading": "About me",
+    "subheading": "Where creativity becomes content",
+    "paragraphs": [
+      "I'm Oluwasemilore Ademo — a digital media and content producer from Lagos. I design graphics, shoot and edit videos, and run social media accounts that people actually stop to watch.",
+      "My workflow is end-to-end: from the first Canva frame to the final CapCut export, from the content calendar to the analytics review. I care about one thing — making brands impossible to scroll past."
+    ],
+    "image": "/assets/img/about-art.svg",
+    "highlights": [
+      "Graphics that stop the scroll",
+      "Videos from shoot to final cut",
+      "Social accounts that grow"
+    ]
+  },
+  "services": [
+    {
+      "icon": "design",
+      "title": "Graphic Design",
+      "text": "Logos, social graphics, thumbnails and brand kits — designed in Canva and Figma, built to grab attention."
+    },
+    {
+      "icon": "video",
+      "title": "Video Production",
+      "text": "From shooting to the final cut — reels, promos and event videos edited to feel native on every platform."
+    },
+    {
+      "icon": "social",
+      "title": "Social Media Management",
+      "text": "Content calendars, posting, community and growth — I run accounts that people actually follow."
+    },
+    {
+      "icon": "bulb",
+      "title": "Content Strategy",
+      "text": "Trend-aware content plans that turn ideas into a steady stream of posts your audience loves."
+    }
+  ],
+  "sectionHeadings": {
+    "projects": { "title": "Selected work", "subtitle": "Graphics, videos and campaigns I've produced" },
+    "experience": { "title": "Experience", "subtitle": "My journey so far" },
+    "skills": { "title": "Skills & tools", "subtitle": "What I create with every day" },
+    "testimonials": { "title": "What people say", "subtitle": "Kind words from clients and teams" },
+    "gallery": { "title": "Showreel & gallery", "subtitle": "Visuals and videos from my work" },
+    "blog": { "title": "Notes", "subtitle": "On creating content that works" },
+    "contact": { "title": "Let's create together", "subtitle": "Got a story to tell? I'd love to hear it." }
+  },
+  "cta": {
+    "heading": "Got a story to tell? Let's make it memorable.",
+    "subheading": "I'm open to freelance projects, brand collaborations and full-time content roles.",
+    "buttonText": "Let's work together",
+    "buttonUrl": "#contact"
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "phone": "+234 800 000 0000",
+    "location": "Lagos, Nigeria",
+    "availability": "Available for freelance & content roles",
+    "socials": [
+      { "platform": "Instagram", "url": "https://instagram.com/yourusername" },
+      { "platform": "TikTok", "url": "https://tiktok.com/@yourusername" },
+      { "platform": "YouTube", "url": "https://youtube.com/@yourusername" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/yourusername" }
+    ]
+  }
+}

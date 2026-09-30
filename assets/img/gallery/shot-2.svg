@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbbc04"/><stop offset="1" stop-color="#ea4335"/></linearGradient></defs>
+  <rect width="800" height="600" fill="#111"/>
+  <g stroke="#242424" stroke-width="2">
+    <rect x="100" y="90" width="190" height="190" rx="10" fill="#181818"/>
+    <rect x="305" y="90" width="190" height="190" rx="10" fill="#181818"/>
+    <rect x="510" y="90" width="190" height="190" rx="10" fill="#181818"/>
+    <rect x="100" y="295" width="190" height="190" rx="10" fill="#181818"/>
+    <rect x="305" y="295" width="190" height="190" rx="10" fill="#181818"/>
+    <rect x="510" y="295" width="190" height="190" rx="10" fill="#181818"/>
+  </g>
+  <rect x="305" y="90" width="190" height="190" rx="10" fill="url(#g)" opacity="0.85"/>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial" font-size="48" font-weight="bold" fill="#111">NEW</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial" font-size="26" fill="#9aa0a6">LAUNCH WEEK GRID</text>
+</svg>

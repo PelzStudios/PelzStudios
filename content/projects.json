@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "title": "Lagos Eats — Brand Refresh",
+      "category": "Design",
+      "tagline": "Full visual identity & social kit",
+      "description": "Rebranded a growing food brand: new logo, menu graphics and a full social media template kit designed in Figma and Canva.",
+      "image": "/assets/img/covers/cover-blue.svg",
+      "tags": ["Figma", "Canva", "Brand Kit"],
+      "demoUrl": "",
+      "repoUrl": "",
+      "featured": true,
+      "year": "2025"
+    },
+    {
+      "title": "30 Reels in 30 Days",
+      "category": "Video",
+      "tagline": "Short-form video campaign",
+      "description": "Shot, edited and published 30 reels in 30 days for a beauty brand — tripling reach and doubling follower growth.",
+      "image": "/assets/img/covers/cover-play.svg",
+      "tags": ["CapCut", "Reels", "TikTok"],
+      "demoUrl": "",
+      "repoUrl": "",
+      "featured": true,
+      "year": "2025"
+    },
+    {
+      "title": "Glow Beauty — Launch Campaign",
+      "category": "Social",
+      "tagline": "Product launch across 3 platforms",
+      "description": "Planned and ran the full launch content calendar for a new skincare line — posts, stories, reels and community management.",
+      "image": "/assets/img/covers/cover-social.svg",
+      "tags": ["Instagram", "Content Calendar", "Canva"],
+      "demoUrl": "",
+      "repoUrl": "",
+      "featured": true,
+      "year": "2024"
+    },
+    {
+      "title": "Street Food Festival — Aftermovie",
+      "category": "Video",
+      "tagline": "Event recap, shot & edited",
+      "description": "Filmed and edited the official aftermovie for a 2-day food festival — watched over 100k times across platforms.",
+      "image": "/assets/img/covers/cover-red.svg",
+      "tags": ["Filming", "CapCut", "YouTube"],
+      "demoUrl": "",
+      "repoUrl": "",
+      "featured": false,
+      "year": "2024"
+    },
+    {
+      "title": "Naija Tech Summit — Graphics Kit",
+      "category": "Design",
+      "tagline": "Event branding & 40+ assets",
+      "description": "Designed the complete visual kit for a tech summit — stage screens, badges, flyers and a 40-piece social pack.",
+      "image": "/assets/img/covers/cover-yellow.svg",
+      "tags": ["Figma", "Print", "Social"],
+      "demoUrl": "",
+      "repoUrl": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "title": "Amaka Wears — Instagram Growth",
+      "category": "Social",
+      "tagline": "10k to 45k followers in 8 months",
+      "description": "Managed content, reels and community for a fashion brand — consistent posting, trend-jacking and monthly analytics reports.",
+      "image": "/assets/img/covers/cover-purple.svg",
+      "tags": ["Instagram", "Analytics", "Reels"],
+      "demoUrl": "",
+      "repoUrl": "",
+      "featured": false,
+      "year": "2023"
+    }
+  ]
+}

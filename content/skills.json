@@ -1,0 +1,18 @@
+{
+  "skills": [
+    { "name": "Canva", "category": "Design", "level": 95, "highlight": true },
+    { "name": "Figma", "category": "Design", "level": 85, "highlight": true },
+    { "name": "Branding & Identity", "category": "Design", "level": 82, "highlight": false },
+    { "name": "Photo Editing", "category": "Design", "level": 80, "highlight": false },
+    { "name": "CapCut", "category": "Video", "level": 92, "highlight": true },
+    { "name": "Video Editing", "category": "Video", "level": 90, "highlight": false },
+    { "name": "Color Grading", "category": "Video", "level": 78, "highlight": false },
+    { "name": "Motion Graphics", "category": "Video", "level": 70, "highlight": false },
+    { "name": "Instagram & TikTok", "category": "Social", "level": 90, "highlight": true },
+    { "name": "Content Planning", "category": "Social", "level": 88, "highlight": false },
+    { "name": "YouTube", "category": "Social", "level": 80, "highlight": false },
+    { "name": "Copywriting", "category": "Social", "level": 75, "highlight": false },
+    { "name": "Trend Research", "category": "Strategy", "level": 85, "highlight": false },
+    { "name": "Audience Growth", "category": "Strategy", "level": 82, "highlight": false }
+  ]
+}
