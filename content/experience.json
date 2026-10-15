@@ -1,12 +1,44 @@
 {
   "experience": [
     {
-      "role": "Digital Media & Content Producer",
-      "company": "Freelance & Brand Projects",
-      "period": "2022 — Present",
+      "role": "Marketing & Media — ALU Alive Committee",
+      "company": "African Leadership College of Higher Education",
+      "period": "Aug 2026 — Present",
       "current": true,
-      "description": "Producing graphics, videos and social content for brands across food, beauty, fashion and events — from concept to publish, shoot to final cut.",
-      "tags": ["Canva", "Figma", "CapCut"]
+      "description": "Leading marketing and media coverage for campus events — capturing pictures and videos, editing coverage, and producing promotional video content for ALU Alive.",
+      "tags": ["Marketing", "Video Editing", "Event Coverage"]
+    },
+    {
+      "role": "Marketing Lead — Hult Prize at ALCHE",
+      "company": "Hult Prize on Campus",
+      "period": "2026",
+      "current": false,
+      "description": "Leading marketing for the Hult Prize on-campus program at ALCHE — creating content, driving sign-ups and covering competition events.",
+      "tags": ["Marketing", "Content Creation", "Event Coverage"]
+    },
+    {
+      "role": "Social Media & Marketing Lead",
+      "company": "NASA Space Apps Challenge — Mauritius 2026",
+      "period": "2026",
+      "current": false,
+      "description": "Led social media and marketing for the NASA Space Apps Challenge in Mauritius 2026 — the first event of its kind in the country, handling campaigns, content and coverage end-to-end.",
+      "tags": ["Social Media", "Campaigns", "Content Strategy"]
+    },
+    {
+      "role": "Media Team Member",
+      "company": "Community Innovation Hub — Lagos, Nigeria",
+      "period": "Jan 2024 — Mar 2026",
+      "current": false,
+      "description": "Covered every hub activity in pictures and videos, and created content for events like Tech Fest and Sexual Awareness Day. Managed the hub's Instagram, TikTok and YouTube accounts, significantly growing engagement.",
+      "tags": ["Social Media", "Content Creation", "Photography"]
+    },
+    {
+      "role": "Media Team Head",
+      "company": "RCCG City of Light Teens Church",
+      "period": "2024 — 2025",
+      "current": false,
+      "description": "Led the coverage and marketing of two annual programs, WPC '24 and WPC '25 — producing graphics, countdowns, marketing content, event coverage and edits end-to-end.",
+      "tags": ["Graphic Design", "Event Coverage", "Video Editing"]
     }
   ]
 }

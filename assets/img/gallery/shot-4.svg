@@ -11,5 +11,5 @@
   <rect x="120" y="380" width="180" height="120" rx="12" fill="#222"/>
   <rect x="340" y="380" width="180" height="120" rx="12" fill="#222"/>
   <rect x="560" y="380" width="180" height="120" rx="12" fill="#222"/>
-  <text x="400" y="545" text-anchor="middle" font-family="Arial" font-size="26" fill="#9aa0a6">SHOOT DAY · LAGOS</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial" font-size="26" fill="#9aa0a6">SHOOT DAY</text>
 </svg>

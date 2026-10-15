@@ -1,19 +1,19 @@
 {
   "site": {
-    "name": "Oluwasemilore Ademo",
-    "title": "Oluwasemilore Ademo — Digital Media & Content Producer",
-    "description": "Portfolio of Oluwasemilore Ademo — digital media & content producer creating graphics, videos and social content from Lagos.",
+    "name": "Pelz Studios",
+    "title": "Pelz Studios — Digital Media & Content Studio",
+    "description": "Pelz Studios — a digital media & content studio creating scroll-stopping graphics, videos and social content.",
     "ogImage": "/assets/img/og.svg",
-    "footerNote": "Oluwasemilore Ademo. ALL RIGHTS RESERVED",
+    "footerNote": "Pelz Studios. ALL RIGHTS RESERVED",
     "favicon": "/assets/img/favicon.svg"
   },
   "hero": {
-    "eyebrow": "Digital Media & Content Producer",
-    "line1": "Oluwa",
+    "eyebrow": "Digital Media & Content Studio",
+    "line1": "Pelumi",
     "sparkle": true,
-    "line2": "semilore",
-    "tagline1": "Create for Lagos.",
-    "tagline2": "Create for the world.",
+    "line2": "Ademo",
+    "tagline1": "I make cool things.",
+    "tagline2": "",
     "art": "/assets/img/hero-art.svg",
     "typewriter": [
       "scroll-stopping graphics",
@@ -25,8 +25,8 @@
   },
   "identity": {
     "role": "Digital Media & Content Producer",
-    "location": "Lagos, Nigeria",
-    "avatar": "/assets/img/avatar.svg",
+    "location": "",
+    "avatar": "/assets/img/headshot.jpeg",
     "resumeUrl": "",
     "pronouns": "He/Him"
   },
@@ -40,10 +40,10 @@
     "heading": "About me",
     "subheading": "Where creativity becomes content",
     "paragraphs": [
-      "I'm Oluwasemilore Ademo — a digital media and content producer from Lagos. I design graphics, shoot and edit videos, and run social media accounts that people actually stop to watch.",
+      "I'm Oluwasemilore Ademo — a digital media and content producer. I design graphics, shoot and edit videos, and run social media accounts that people actually stop to watch.",
       "My workflow is end-to-end: from the first Canva frame to the final CapCut export, from the content calendar to the analytics review. I care about one thing — making brands impossible to scroll past."
     ],
-    "image": "/assets/img/about-art.svg",
+    "image": "/assets/img/headshot.jpeg",
     "highlights": [
       "Graphics that stop the scroll",
       "Videos from shoot to final cut",
@@ -73,12 +73,9 @@
     }
   ],
   "sectionHeadings": {
-    "projects": { "title": "Selected work", "subtitle": "Graphics, videos and campaigns I've produced" },
+    "showcase": { "title": "Showcase", "subtitle": "My graphics and videos — filter to explore" },
     "experience": { "title": "Experience", "subtitle": "My journey so far" },
     "skills": { "title": "Skills & tools", "subtitle": "What I create with every day" },
-    "testimonials": { "title": "What people say", "subtitle": "Kind words from clients and teams" },
-    "gallery": { "title": "Showreel & gallery", "subtitle": "Visuals and videos from my work" },
-    "blog": { "title": "Notes", "subtitle": "On creating content that works" },
     "contact": { "title": "Let's create together", "subtitle": "Got a story to tell? I'd love to hear it." }
   },
   "cta": {
@@ -90,7 +87,7 @@
   "contact": {
     "email": "hello@example.com",
     "phone": "+234 800 000 0000",
-    "location": "Lagos, Nigeria",
+    "location": "",
     "availability": "Available for freelance & content roles",
     "socials": [
       { "platform": "Instagram", "url": "https://instagram.com/yourusername" },

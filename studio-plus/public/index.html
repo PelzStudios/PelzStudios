@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Studio+ — a simulated Alexa+ experience that helps content creators plan, write, and grow. Built for the Amazon Developer Hackathon." />
+  <title>Studio+ — Simulated Alexa+ Experience</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">Studio<span class="plus">+</span></span>
+      <span class="badge">Simulated Alexa+ Experience</span>
+    </div>
+    <div class="status" id="status" title="AI backend status">
+      <span class="dot" id="statusDot"></span>
+      <span id="statusText">Connecting…</span>
+    </div>
+  </header>
+
+  <main class="chat" id="chat" aria-live="polite">
+    <section class="welcome" id="welcome">
+      <div class="welcome-orb" aria-hidden="true"></div>
+      <h1>Hi, I'm Studio<span class="plus">+</span></h1>
+      <p>
+        Your AI content partner. Plan content weeks, write captions,<br />
+        research trends, and script Reels — in one place.
+      </p>
+      <div class="chips" id="chips">
+        <button class="chip" type="button">Plan my content week</button>
+        <button class="chip" type="button">Write a caption for a fashion promo</button>
+        <button class="chip" type="button">Trend research for my niche</button>
+        <button class="chip" type="button">Draft a 15-second Reel script</button>
+        <button class="chip" type="button">Build a 30-day growth plan</button>
+      </div>
+    </section>
+    <div id="messages"></div>
+  </main>
+
+  <footer class="composer">
+    <form id="composerForm" autocomplete="off">
+      <button type="button" class="mic" id="micBtn" aria-label="Voice input (simulated)">🎙</button>
+      <textarea
+        id="input"
+        rows="1"
+        placeholder="Ask Studio+ anything…"
+        aria-label="Message Studio+"
+      ></textarea>
+      <button type="submit" class="send" id="sendBtn" aria-label="Send">➤</button>
+    </form>
+    <p class="hint">
+      Studio+ is a simulation built for the Amazon Developer Hackathon (Alexa+ track).
+      Responses may be inaccurate.
+    </p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

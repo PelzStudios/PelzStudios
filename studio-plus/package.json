@@ -1,0 +1,25 @@
+{
+  "name": "studio-plus",
+  "version": "1.0.0",
+  "description": "Studio+ — a simulated Alexa+ experience that helps content creators plan, write, and grow. Built for the Amazon Developer Hackathon (Alexa+ track, simulated-experience path).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "alexa+",
+    "bedrock",
+    "hackathon",
+    "content-creator",
+    "simulated-experience"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.600.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

@@ -27,20 +27,20 @@
   var FALLBACK = {
     settings: {
       site: {
-        name: "Oluwasemilore Ademo",
-        title: "Oluwasemilore Ademo — Digital Media & Content Producer",
-        description: "Portfolio of Oluwasemilore Ademo — digital media & content producer creating graphics, videos and social content from Lagos.",
+        name: "Pelz Studios",
+        title: "Pelz Studios — Digital Media & Content Studio",
+        description: "Pelz Studios — a digital media & content studio creating scroll-stopping graphics, videos and social content.",
         ogImage: "assets/img/og.svg",
-        footerNote: "Oluwasemilore Ademo. ALL RIGHTS RESERVED",
+        footerNote: "Pelz Studios. ALL RIGHTS RESERVED",
         favicon: "assets/img/favicon.svg"
       },
       hero: {
-        eyebrow: "Digital Media & Content Producer", line1: "Oluwa", sparkle: true, line2: "semilore",
-        tagline1: "Create for Lagos.", tagline2: "Create for the world.",
+        eyebrow: "Digital Media & Content Studio", line1: "Pelumi", sparkle: true, line2: "Ademo",
+        tagline1: "I make cool things.", tagline2: "",
         art: "assets/img/hero-art.svg",
         typewriter: ["scroll-stopping graphics", "short-form videos", "social campaigns", "brand stories", "content that converts"]
       },
-      identity: { role: "Digital Media & Content Producer", location: "Lagos, Nigeria", avatar: "assets/img/avatar.svg", resumeUrl: "" },
+      identity: { role: "Digital Media & Content Producer", location: "", avatar: "assets/img/headshot.jpeg", resumeUrl: "" },
       stats: [
         { value: "150+", label: "Designs delivered" }, { value: "80+", label: "Videos edited" },
         { value: "10+", label: "Brands managed" }, { value: "2M+", label: "Views generated" }
@@ -48,10 +48,10 @@
       about: {
         heading: "About me", subheading: "Where creativity becomes content",
         paragraphs: [
-          "I'm Oluwasemilore Ademo — a digital media and content producer from Lagos. I design graphics, shoot and edit videos, and run social media accounts that people actually stop to watch.",
+          "I'm Oluwasemilore Ademo — a digital media and content producer. I design graphics, shoot and edit videos, and run social media accounts that people actually stop to watch.",
           "My workflow is end-to-end: from the first Canva frame to the final CapCut export, from the content calendar to the analytics review. I care about one thing — making brands impossible to scroll past."
         ],
-        image: "assets/img/about-art.svg",
+        image: "assets/img/headshot.jpeg",
         highlights: ["Graphics that stop the scroll", "Videos from shoot to final cut", "Social accounts that grow"]
       },
       services: [
@@ -61,17 +61,14 @@
         { icon: "bulb", title: "Content Strategy", text: "Trend-aware content plans that turn ideas into a steady stream of posts your audience loves." }
       ],
       sectionHeadings: {
-        projects: { title: "Selected work", subtitle: "Graphics, videos and campaigns I've produced" },
+        showcase: { title: "Showcase", subtitle: "My graphics and videos — filter to explore" },
         experience: { title: "Experience", subtitle: "My journey so far" },
         skills: { title: "Skills & tools", subtitle: "What I create with every day" },
-        testimonials: { title: "What people say", subtitle: "Kind words from clients and teams" },
-        gallery: { title: "Showreel & gallery", subtitle: "Visuals and videos from my work" },
-        blog: { title: "Notes", subtitle: "On creating content that works" },
         contact: { title: "Let's create together", subtitle: "Got a story to tell? I'd love to hear it." }
       },
       cta: { heading: "Got a story to tell? Let's make it memorable.", subheading: "I'm open to freelance projects, brand collaborations and full-time content roles.", buttonText: "Let's work together", buttonUrl: "#contact" },
       contact: {
-        email: "hello@example.com", phone: "+234 800 000 0000", location: "Lagos, Nigeria",
+        email: "hello@example.com", phone: "+234 800 000 0000", location: "",
         availability: "Available for freelance & content roles",
         socials: [
           { platform: "Instagram", url: "https://instagram.com/yourusername" },
@@ -83,17 +80,21 @@
     },
     projects: {
       projects: [
-        { title: "Lagos Eats — Brand Refresh", category: "Design", tagline: "Full visual identity & social kit", description: "Rebranded a growing food brand: new logo, menu graphics and a full social media template kit.", image: "assets/img/covers/cover-blue.svg", tags: ["Figma", "Canva", "Brand Kit"], demoUrl: "", repoUrl: "", featured: true, year: "2025" },
-        { title: "30 Reels in 30 Days", category: "Video", tagline: "Short-form video campaign", description: "Shot, edited and published 30 reels in 30 days for a beauty brand — tripling reach.", image: "assets/img/covers/cover-play.svg", tags: ["CapCut", "Reels", "TikTok"], demoUrl: "", repoUrl: "", featured: true, year: "2025" },
-        { title: "Glow Beauty — Launch Campaign", category: "Social", tagline: "Product launch across 3 platforms", description: "Planned and ran the full launch content calendar for a new skincare line.", image: "assets/img/covers/cover-social.svg", tags: ["Instagram", "Content Calendar", "Canva"], demoUrl: "", repoUrl: "", featured: true, year: "2024" },
-        { title: "Street Food Festival — Aftermovie", category: "Video", tagline: "Event recap, shot & edited", description: "Filmed and edited the official aftermovie for a 2-day food festival.", image: "assets/img/covers/cover-red.svg", tags: ["Filming", "CapCut", "YouTube"], demoUrl: "", repoUrl: "", featured: false, year: "2024" },
-        { title: "Naija Tech Summit — Graphics Kit", category: "Design", tagline: "Event branding & 40+ assets", description: "Designed the complete visual kit for a tech summit — stage screens, badges and a social pack.", image: "assets/img/covers/cover-yellow.svg", tags: ["Figma", "Print", "Social"], demoUrl: "", repoUrl: "", featured: false, year: "2023" },
-        { title: "Amaka Wears — Instagram Growth", category: "Social", tagline: "10k to 45k followers in 8 months", description: "Managed content, reels and community for a fashion brand.", image: "assets/img/covers/cover-purple.svg", tags: ["Instagram", "Analytics", "Reels"], demoUrl: "", repoUrl: "", featured: false, year: "2023" }
+        { title: "Karaoke Night", category: "Design", tagline: "Event flyer — neon club night", description: "Event flyer for a karaoke night: neon typography, disco glow and venue details laid out for Instagram and print.", image: "KARAOKE.png", tags: ["Flyer", "Neon", "Canva"], demoUrl: "", repoUrl: "", featured: true, year: "2026" },
+        { title: "GAME ON", category: "Design", tagline: "Gaming hub event poster", description: "High-energy poster for a gaming hub — 3D character, game lineup and 'why us' panels in one bold layout.", image: "Game.png", tags: ["Poster", "Gaming", "Branding"], demoUrl: "", repoUrl: "", featured: true, year: "2026" },
+        { title: "PELZ'S Apparel — 50% OFF", category: "Design", tagline: "Sale promo for the studio's apparel brand", description: "Promo design for Pelz's Apparel: sneaker showcase, 50% badge and a clear ORDER NOW call-to-action.", image: "50%20OFF%20(1).png", tags: ["Promo", "E-commerce", "Canva"], demoUrl: "", repoUrl: "", featured: true, year: "2026" },
+        { title: "Campus Fest 1.0", category: "Design", tagline: "Campus event poster", description: "Poster for Campus Fest 1.0 — bunting, brush lettering and a full activity line-up for the launch edition.", image: "campus%20fest.png", tags: ["Event", "Poster", "Print"], demoUrl: "", repoUrl: "", featured: false, year: "2026" },
+        { title: "Bi-Weekly Report", category: "Social", tagline: "Community report graphic", description: "Report graphic for Community Innovation Hub — activity stats, photo collage and a clean call-to-action.", image: "Screenshot%202026-09-30%20163446.png", tags: ["Infographic", "Social", "Branding"], demoUrl: "", repoUrl: "", featured: false, year: "2026" },
+        { title: "World Reboot", category: "Design", tagline: "Game title artwork", description: "Coming-soon game artwork — tribal fantasy characters, gold borders and a cinematic title treatment.", image: "Game%20(1).png", tags: ["Game Art", "Poster", "3D"], demoUrl: "", repoUrl: "", featured: false, year: "2026" }
       ]
     },
     experience: {
       experience: [
-        { role: "Digital Media & Content Producer", company: "Freelance & Brand Projects", period: "2022 — Present", current: true, description: "Producing graphics, videos and social content for brands across food, beauty, fashion and events — from concept to publish, shoot to final cut.", tags: ["Canva", "Figma", "CapCut"] }
+        { role: "Marketing & Media — ALU Alive Committee", company: "African Leadership College of Higher Education", period: "Aug 2026 — Present", current: true, description: "Leading marketing and media coverage for campus events — capturing pictures and videos, editing coverage, and producing promotional video content for ALU Alive.", tags: ["Marketing", "Video Editing", "Event Coverage"] },
+        { role: "Marketing Lead — Hult Prize at ALCHE", company: "Hult Prize on Campus", period: "2026", current: false, description: "Leading marketing for the Hult Prize on-campus program at ALCHE — creating content, driving sign-ups and covering competition events.", tags: ["Marketing", "Content Creation", "Event Coverage"] },
+        { role: "Social Media & Marketing Lead", company: "NASA Space Apps Challenge — Mauritius 2026", period: "2026", current: false, description: "Led social media and marketing for the NASA Space Apps Challenge in Mauritius 2026 — the first event of its kind in the country, handling campaigns, content and coverage end-to-end.", tags: ["Social Media", "Campaigns", "Content Strategy"] },
+        { role: "Media Team Member", company: "Community Innovation Hub — Lagos, Nigeria", period: "Jan 2024 — Mar 2026", current: false, description: "Covered every hub activity in pictures and videos, and created content for events like Tech Fest and Sexual Awareness Day. Managed the hub's Instagram, TikTok and YouTube accounts, significantly growing engagement.", tags: ["Social Media", "Content Creation", "Photography"] },
+        { role: "Media Team Head", company: "RCCG City of Light Teens Church", period: "2024 — 2025", current: false, description: "Led the coverage and marketing of two annual programs, WPC '24 and WPC '25 — producing graphics, countdowns, marketing content, event coverage and edits end-to-end.", tags: ["Graphic Design", "Event Coverage", "Video Editing"] }
       ]
     },
     skills: {
@@ -116,19 +117,26 @@
     },
     testimonials: {
       testimonials: [
-        { quote: "The graphics Oluwa made for our rebrand got more engagement than anything we'd ever posted. He just gets what makes people stop scrolling.", name: "Adaeze Okafor", role: "Founder, Lagos Eats" },
+        { quote: "The graphics Oluwa made for our rebrand got more engagement than anything we'd ever posted. He just gets what makes people stop scrolling.", name: "Adaeze Okafor", role: "Founder, EatsCo" },
         { quote: "He delivered 30 reels in 30 days and our reach tripled. The consistency, the speed, the quality — unmatched.", name: "Tunde Bakare", role: "Marketing Lead, Glow Beauty" },
         { quote: "Our event aftermovie looked like a Netflix trailer. Guests kept resharing it for weeks.", name: "Amaka Nwosu", role: "Organizer, Street Food Festival" }
       ]
     },
     gallery: {
       gallery: [
-        { image: "assets/img/gallery/shot-1.svg", video: "", caption: "Lagos Eats — brand identity board", category: "Design" },
-        { image: "assets/img/gallery/shot-2.svg", video: "", caption: "Instagram grid — Glow Beauty launch", category: "Design" },
-        { image: "assets/img/gallery/shot-3.svg", video: "", caption: "30 Reels in 30 Days — storyboard", category: "Video" },
-        { image: "assets/img/gallery/shot-4.svg", video: "", caption: "Behind the scenes — festival shoot day", category: "Video" },
-        { image: "assets/img/gallery/shot-5.svg", video: "", caption: "Campaign analytics — 30-day report", category: "Social" },
-        { image: "assets/img/gallery/shot-6.svg", video: "", caption: "Monthly content calendar", category: "Social" }
+        { image: "KARAOKE.png", video: "", caption: "Karaoke Night — event flyer", category: "Design" },
+        { image: "Game.png", video: "", caption: "GAME ON — gaming event poster", category: "Design" },
+        { image: "50% OFF (1).png", video: "", caption: "PELZ'S Apparel — sale promo", category: "Design" },
+        { image: "campus fest.png", video: "", caption: "Campus Fest 1.0 — event poster", category: "Design" },
+        { image: "evaluation (2).png", video: "", caption: "Monthly Evaluation — TicTechyHub", category: "Design" },
+        { image: "Add a heading (1).png", video: "", caption: "Back to School — campaign graphic", category: "Design" },
+        { image: "Canter 3d (1).png", video: "", caption: "Domino's Mega Promo — 3D banner", category: "Design" },
+        { image: "KARAOKE (1).png", video: "", caption: "We Are Back — food promo", category: "Design" },
+        { image: "Game (1).png", video: "", caption: "World Reboot — game title art", category: "Design" },
+        { image: "Screenshot 2026-09-30 163352.png", video: "", caption: "Evaluation & Game Day — CIH flyer", category: "Design" },
+        { image: "Screenshot 2026-09-30 163446.png", video: "", caption: "Bi-Weekly Report — CIH", category: "Social" },
+        { image: "Screenshot 2026-09-30 164052.png", video: "", caption: "Dream Vacation — travel banner", category: "Design" },
+        { image: "Screenshot 2026-09-30 164133.png", video: "", caption: "FIRE Conference 2025 — event flyer", category: "Design" },
       ]
     },
     blog: {
@@ -178,6 +186,9 @@
     if ((m = String(url || "").match(/vimeo\.com\/(?:video\/)?(\d+)/i))) {
       return "https://player.vimeo.com/video/" + m[1] + "?autoplay=1";
     }
+    if ((m = String(url || "").match(/(?:drive\.google\.com\/(?:file\/d\/|open\?id=)|docs\.google\.com\/file\/d\/)([\w-]{20,})/i))) {
+      return "https://drive.google.com/file/d/" + m[1] + "/preview";
+    }
     return null;
   }
   function isDirectVideo(url) {
@@ -212,30 +223,48 @@
   /* ---------------- Section renderers ---------------- */
   function renderHero() {
     var s = data.settings;
-    var art = s.hero.art || "";
+    var services = (s.services || []).map(function (sv) { return esc(sv.title); });
+    var names = services.length ? services : ["Graphic Design", "Video Production", "Social Media", "Content Strategy"];
+    var marquee = names.concat(names).map(function (t) {
+      return '<span class="hero__marquee-item">' + t + ' <svg class="hero__marquee-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"></use></svg></span>';
+    }).join("");
     var html =
       '<div class="hero">' +
       '<div class="hero__bg" aria-hidden="true">' +
-      '<div class="hero__glow"></div><div class="hero__glow hero__glow--b"></div></div>' +
+      '<div class="hero__aurora hero__aurora--a"></div>' +
+      '<div class="hero__aurora hero__aurora--b"></div>' +
+      '<div class="hero__aurora hero__aurora--c"></div>' +
+      '<div class="hero__grid-lines"></div>' +
+      '<div class="hero__noise"></div></div>' +
       '<div class="shell hero__grid">' +
       '<div class="hero__content">' +
-      '<p class="hero__eyebrow">' + icon("star") + esc(s.hero.eyebrow) + "</p>" +
       '<h1 class="hero__title">' +
-      '<span class="hero__title-row"><span>' + esc(s.hero.line1) + "</span>" +
+      '<span class="hero__title-row"><span class="hero__title-solid">' + esc(s.hero.line1) + "</span>" +
       (s.hero.sparkle
-        ? '<svg class="hero__sparkle" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="sparkle-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4285f4"/><stop offset="0.5" stop-color="#34a853"/><stop offset="1" stop-color="#fbbc04"/></linearGradient></defs><path class="sparkle-path" d="M32 2 C36 14 50 18 62 22 C50 26 36 30 32 42 C28 30 14 26 2 22 C14 18 28 14 32 2 Z"/></svg>'
+        ? '<svg class="hero__sparkle" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="sparkle-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff3860"/><stop offset="0.5" stop-color="#a855f7"/><stop offset="1" stop-color="#3d7bff"/></linearGradient></defs><path class="sparkle-path" d="M32 2 C36 14 50 18 62 22 C50 26 36 30 32 42 C28 30 14 26 2 22 C14 18 28 14 32 2 Z"/></svg>'
         : "") +
-      "<span>" + esc(s.hero.line2) + "</span></span></h1>" +
-      '<p class="hero__tagline">' + esc(s.hero.tagline1) + "<br>" + esc(s.hero.tagline2) + "</p>" +
+      '<span class="hero__title-outline">' + esc(s.hero.line2) + "</span></span></h1>" +
+      '<p class="hero__accent">' + (s.hero.tagline2 ? esc(s.hero.tagline1) + " <em>" + esc(s.hero.tagline2) + "</em>" : "<em>" + esc(s.hero.tagline1) + "</em>") + "</p>" +
       '<p class="hero__typewriter"><span class="tw-static">I create </span><span data-tw></span><span class="tw-caret" aria-hidden="true"></span></p>' +
       '<div class="hero__actions">' +
-      '<a class="btn btn--gradient" href="#work">See my work ' + icon("arrow") + "</a>" +
-      '<a class="btn btn--ghost" href="#contact">Get in touch</a>' +
+      '<a class="btn btn--gradient" href="#showcase">See my work ' + icon("arrow") + "</a>" +
       "</div></div>" +
-      '<div class="hero__art reveal">' +
-      (art ? '<img src="' + esc(path(art)) + '" alt="" width="600" height="520" fetchpriority="high" />' : "") +
-      '<div class="hero__art-ring" aria-hidden="true"></div></div>' +
-      "</div></div>";
+      '<div class="hero__collage" aria-hidden="true">' +
+      '<div class="hero__ring"></div>' +
+      '<div class="hero__dashed"></div>' +
+      '<div class="hero__photo">' +
+      '<img src="assets/img/headshot.jpeg" alt="" width="420" height="520" fetchpriority="high" />' +
+      '<div class="hero__photo-badge">' + esc(s.identity.role || "Digital Media & Content Producer") + "</div></div>" +
+      '<div class="hero__chip hero__chip--video">' +
+      '<img src="https://drive.google.com/thumbnail?id=1LJ6fPsNpxaYJWvGyIre1MUAsgW2pdyit&amp;sz=w1000" alt="" width="190" height="240" loading="lazy" onerror="this.onerror=null;this.src=\'assets/img/media-fallback.svg\'" />' +
+      '<span class="hero__chip-play"><svg viewBox="0 0 24 24"><use href="#i-play"></use></svg></span>' +
+      '<span class="hero__chip-label">80+ videos edited</span></div>' +
+      '<div class="hero__chip hero__chip--design">' +
+      '<img src="KARAOKE.png" alt="" width="200" height="150" loading="lazy" />' +
+      '<span class="hero__chip-label">150+ designs delivered</span></div>' +
+      "</div></div>" +
+      '<div class="hero__marquee" aria-hidden="true"><div class="hero__marquee-track">' + marquee + "</div></div>" +
+      "</div>";
     $("#hero").innerHTML = html;
     initTypewriter(s.hero.typewriter || []);
   }
@@ -257,7 +286,7 @@
       (a.image ? '<img src="' + esc(path(a.image)) + '" alt="About ' + esc(s.site.name) + '" width="520" height="420" loading="lazy" />' : "") +
       '<div class="about__art-badge">' +
       (s.identity.avatar ? '<img src="' + esc(path(s.identity.avatar)) + '" alt="" width="40" height="40" style="width:40px;height:40px;border-radius:50%;object-fit:cover" />' : "") +
-      esc(s.identity.location) + "</div></div>" +
+      esc(s.identity.role || "") + "</div></div>" +
       '<div class="about__bio">' +
       '<p class="sec-head__eyebrow">' + esc(a.subheading || "About") + "</p>" +
       '<h2 class="sec-head__title">' + esc(a.heading || "About me") + "</h2>" +
@@ -271,43 +300,6 @@
       return '<div class="service-card reveal"><div class="service-card__icon">' + icon(sv.icon) + "</div><h3>" + esc(sv.title) + "</h3><p>" + esc(sv.text) + "</p></div>";
     }).join("");
     $("#services").innerHTML = '<div class="section"><div class="shell"><div class="services__grid">' + cards + "</div></div></div>";
-  }
-
-  function renderWork() {
-    var projects = (data.projects.projects || []).slice().sort(function (a, b) {
-      return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
-    });
-    var cats = projects.map(function (p) { return p.category; })
-      .filter(function (v, i, arr) { return v && arr.indexOf(v) === i; });
-
-    var chips = cats.map(function (c, i) {
-      return '<button type="button" class="chip' + (i === 0 ? " is-active" : "") + '" data-filter="' + esc(slugify(c)) + '" aria-pressed="' + (i === 0) + '">' + esc(c) + "</button>";
-    }).join("");
-
-    var cards = projects.map(function (p) {
-      var links = "";
-      if (p.demoUrl) links += '<a href="' + esc(p.demoUrl) + '" target="_blank" rel="noopener noreferrer">' + icon("external") + "Live demo</a>";
-      if (p.repoUrl) links += '<a href="' + esc(p.repoUrl) + '" target="_blank" rel="noopener noreferrer">' + icon("github") + "Code</a>";
-      var tags = (p.tags || []).map(function (t) { return "<span>" + esc(t) + "</span>"; }).join("");
-      return '<article class="project-card reveal" data-cat="' + esc(slugify(p.category)) + '">' +
-        '<div class="project-card__media">' +
-        (p.image ? '<img src="' + esc(path(p.image)) + '" alt="' + esc(p.title) + '" width="900" height="600" loading="lazy" />' : "") +
-        (p.featured ? '<span class="project-card__year">Featured</span>' : '<span class="project-card__year">' + esc(p.year || "") + "</span>") +
-        "</div>" +
-        '<div class="project-card__body">' +
-        '<span class="project-card__cat grad-text">' + esc(p.category || "") + "</span>" +
-        "<h3>" + esc(p.title) + "</h3>" +
-        '<p class="project-card__tagline">' + esc(p.tagline || p.description || "") + "</p>" +
-        '<div class="project-card__tags">' + tags + "</div>" +
-        (links ? '<div class="project-card__links">' + links + "</div>" : "") +
-        "</div></article>";
-    }).join("");
-
-    $("#work").innerHTML =
-      '<div class="section"><div class="shell">' + secHead("projects") +
-      '<div class="chips" role="group" aria-label="Filter projects">' + chips + "</div>" +
-      '<div class="projects__grid" data-grid>' + cards + "</div></div></div>";
-    initProjectFilters();
   }
 
   function renderExperience() {
@@ -342,29 +334,25 @@
     initSkillBars();
   }
 
-  function renderTestimonials() {
-    var cards = (data.testimonials.testimonials || []).map(function (t) {
-      var initials = String(t.name || "?").split(/\s+/).map(function (w) { return w.charAt(0); }).slice(0, 2).join("").toUpperCase();
-      return '<div class="testi-card reveal">' +
-        '<svg viewBox="0 0 24 24" class="testi-card__icon" aria-hidden="true"><use href="#i-quote"></use></svg>' +
-        "<blockquote>" + esc(t.quote) + "</blockquote>" +
-        '<div class="testi-card__who"><div class="testi-card__avatar">' + esc(initials) + "</div>" +
-        '<div><div class="testi-card__name">' + esc(t.name) + '</div><div class="testi-card__role">' + esc(t.role) + "</div></div></div></div>";
-    }).join("");
-    $("#testimonials").innerHTML = '<div class="section section--tight"><div class="shell">' + secHead("testimonials") + '<div class="testi__grid">' + cards + "</div></div></div>";
-  }
-
-  function renderGallery() {
+  function renderShowcase() {
     var items = (data.gallery.gallery || []).map(function (g) {
       var isVideo = !!g.video;
-      return '<button type="button" class="gallery-item reveal" data-img="' + esc(path(g.image)) + '" data-video="' + esc(path(g.video || "")) + '" data-cap="' + esc(g.caption || "") + '" aria-label="View ' + esc(g.caption || "media") + '">' +
-        '<img src="' + esc(path(g.image)) + '" alt="' + esc(g.caption || "Gallery media") + '" width="800" height="600" loading="lazy" />' +
+      var filter = isVideo ? "videos" : "graphics";
+      var cat = isVideo ? "Video" : (g.category || "Graphic");
+      return '<button type="button" class="gallery-item reveal" data-filter="' + filter + '" data-img="' + esc(path(g.image)) + '" data-video="' + esc(path(g.video || "")) + '" data-aspect="' + esc(g.aspect || "16-9") + '" data-cap="' + esc(g.caption || "") + '" aria-label="View ' + esc(g.caption || "media") + '">' +
+        '<img src="' + esc(path(g.image)) + '" alt="' + esc(g.caption || "Gallery media") + '" width="800" height="600" loading="lazy" onerror="this.onerror=null;this.src=\'assets/img/media-fallback.svg\'" />' +
         (isVideo ? '<span class="gallery-item__play" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-play"></use></svg></span>' : "") +
-        '<span class="gallery-item__cat">' + esc(g.category || "") + "</span>" +
+        '<span class="gallery-item__cat">' + esc(cat) + "</span>" +
         '<span class="gallery-item__cap">' + esc(g.caption || "") + "</span></button>";
     }).join("");
-    $("#gallery").innerHTML =
-      '<div class="section"><div class="shell">' + secHead("gallery") + '<div class="gallery__grid">' + items + "</div></div></div>" +
+    $("#showcase").innerHTML =
+      '<div class="section"><div class="shell">' + secHead("showcase") +
+      '<div class="chips" role="group" aria-label="Filter showcase">' +
+      '<button type="button" class="chip is-active" data-filter="all" aria-pressed="true">All</button>' +
+      '<button type="button" class="chip" data-filter="graphics" aria-pressed="false">Graphics</button>' +
+      '<button type="button" class="chip" data-filter="videos" aria-pressed="false">Videos</button>' +
+      "</div>" +
+      '<div class="gallery__grid">' + items + "</div></div></div>" +
       '<div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="Media viewer">' +
       '<button class="lightbox__close" type="button" data-lightbox-close aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20"><use href="#i-close"></use></svg></button>' +
       '<figure><iframe class="lightbox__frame" style="display:none" title="Video player" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen></iframe>' +
@@ -373,33 +361,16 @@
       '<figcaption class="lightbox__cap"></figcaption>' +
       '<a class="lightbox__link btn btn--gradient" style="display:none" target="_blank" rel="noopener noreferrer">Watch video ↗</a></figure></div>';
     initLightbox();
+    initShowcaseFilters();
   }
 
   function renderCta() {
     var c = data.settings.cta || {};
-    $("#blog").insertAdjacentHTML("beforebegin",
+    $("#contact").insertAdjacentHTML("beforebegin",
       '<section class="section section--tight"><div class="shell"><div class="cta-banner reveal">' +
       "<h2>" + esc(c.heading) + "</h2><p>" + esc(c.subheading) + "</p>" +
       '<a class="btn btn--gradient" href="' + esc(c.buttonUrl || "#contact") + '">' + esc(c.buttonText || "Get in touch") + " " + icon("arrow") + "</a>" +
       "</div></div></section>");
-  }
-
-  function renderBlogPreview() {
-    var posts = (data.blog.posts || []).slice(0, 3);
-    var cards = posts.map(function (p) {
-      return '<a class="blog-card reveal" href="post.html?slug=' + encodeURIComponent(slugify(p.title)) + '">' +
-        '<div class="blog-card__media">' + (p.cover ? '<img src="' + esc(path(p.cover)) + '" alt="" width="900" height="506" loading="lazy" />' : "") + "</div>" +
-        '<div class="blog-card__body">' +
-        '<div class="blog-card__meta"><span class="grad-text">' + esc(fmtDate(p.date)) + "</span>" + esc((p.tags || [])[0] || "") + "</div>" +
-        "<h3>" + esc(p.title) + "</h3>" +
-        '<p class="blog-card__excerpt">' + esc(p.excerpt || "") + "</p>" +
-        '<span class="blog-card__more">Read more ' + icon("arrow") + "</span>" +
-        "</div></a>";
-    }).join("");
-    $("#blog").innerHTML =
-      '<div class="section"><div class="shell">' + secHead("blog") +
-      '<div class="blog__grid">' + cards + "</div>" +
-      '<div class="blog__all"><a class="btn btn--ghost" href="blog.html">All posts ' + icon("arrow") + "</a></div></div></div>";
   }
 
   function renderContact() {
@@ -410,15 +381,11 @@
     }).join("");
     $("#contact").innerHTML =
       '<div class="section"><div class="shell contact__grid"><div>' + secHead("contact") +
-      '<div class="contact__card"><div class="contact__icon">' + icon("mail") + "</div><div><h3>Email</h3><a href=\"mailto:" + esc(c.email) + "\">" + esc(c.email) + "</a></div></div>" +
-      '<div class="contact__card"><div class="contact__icon">' + icon("phone") + "</div><div><h3>Phone</h3><p>" + esc(c.phone) + "</p></div></div>" +
-      '<div class="contact__card"><div class="contact__icon">' + icon("pin") + "</div><div><h3>Location</h3><p>" + esc(c.location) + "</p></div></div>" +
       '<div class="contact__socials">' + socials + "</div>" +
       "</div>" +
-      '<div class="contact__panel reveal"><h3>Start a conversation</h3>' +
+      '<div class="contact__panel reveal"><h3>Let\'s connect</h3>' +
       '<p class="contact__avail">' + esc(c.availability || "Open to opportunities") + "</p>" +
-      '<p style="color:var(--muted);margin:0 0 20px">Tell me about your project, timeline and budget — I usually reply within 24 hours.</p>' +
-      '<a class="contact__mailto" href="mailto:' + esc(c.email) + '">' + icon("mail") + " " + esc(c.email) + "</a>" +
+      '<p style="color:var(--muted);margin:0">Reach me on any of these platforms — I usually reply within 24 hours.</p>' +
       "</div></div></div>";
   }
 
@@ -463,19 +430,18 @@
     tick();
   }
 
-  function initProjectFilters() {
-    var chips = $$("[data-filter]");
-    var cards = $$("[data-grid] .project-card");
-    if (!chips.length || !cards.length) return;
+  function initShowcaseFilters() {
+    var chips = $$("#showcase .chip");
+    var items = $$("#showcase .gallery-item");
+    if (!chips.length || !items.length) return;
     chips.forEach(function (chip) {
       chip.addEventListener("click", function () {
         chips.forEach(function (c) { c.classList.remove("is-active"); c.setAttribute("aria-pressed", "false"); });
         chip.classList.add("is-active");
         chip.setAttribute("aria-pressed", "true");
         var f = chip.getAttribute("data-filter");
-        cards.forEach(function (card) {
-          var show = f === "all" || card.getAttribute("data-cat") === f;
-          card.style.display = show ? "" : "none";
+        items.forEach(function (item) {
+          item.style.display = f === "all" || item.getAttribute("data-filter") === f ? "" : "none";
         });
       });
     });
@@ -513,13 +479,14 @@
       link.style.display = "none";
     }
 
-    function open(src, video, caption) {
+    function open(src, video, caption, aspect) {
       cap.textContent = caption || "";
       hideAll();
       if (video) {
         var embed = embedSrc(video);
         if (embed) {
           frame.src = embed;
+          frame.className = "lightbox__frame" + (aspect === "9-16" ? " lightbox__frame--9x16" : "");
           frame.style.display = "";
         } else if (isDirectVideo(video)) {
           vid.src = video;
@@ -547,13 +514,14 @@
       vid.pause();
       vid.removeAttribute("src");
       frame.removeAttribute("src");
+      frame.className = "lightbox__frame";
       img.src = "";
       link.removeAttribute("href");
       hideAll();
     }
 
     $$(".gallery-item").forEach(function (item) {
-      item.addEventListener("click", function () { open(item.getAttribute("data-img"), item.getAttribute("data-video"), item.getAttribute("data-cap")); });
+      item.addEventListener("click", function () { open(item.getAttribute("data-img"), item.getAttribute("data-video"), item.getAttribute("data-cap"), item.getAttribute("data-aspect")); });
     });
     box.querySelector("[data-lightbox-close]").addEventListener("click", close);
     box.addEventListener("click", function (e) { if (e.target === box) close(); });
@@ -654,7 +622,7 @@
       holder.innerHTML = '<div class="post-missing"><h1>Post not found</h1><p>It may have been renamed or removed.</p><a class="btn btn--gradient" href="blog.html">All posts</a></div>';
       return;
     }
-    document.title = post.title + " — Oluwasemilore Ademo";
+    document.title = post.title + " — Pelz Studios";
     holder.innerHTML =
       (post.cover ? '<img class="post__cover" src="' + esc(path(post.cover)) + '" alt="" width="900" height="506" />' : "") +
       "<h1 class=\"post__title\">" + esc(post.title) + "</h1>" +
@@ -683,13 +651,10 @@
       renderStats();
       renderAbout();
       renderServices();
-      renderWork();
+      renderShowcase();
       renderExperience();
       renderSkills();
-      renderTestimonials();
-      renderGallery();
       renderCta();
-      renderBlogPreview();
       renderContact();
       initMobileMenu();
       initSpy();
